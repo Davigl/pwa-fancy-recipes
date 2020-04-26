@@ -30,6 +30,8 @@
 
 <div align="center">
 
+This project generates recipes in a randomic mode, it turns the discover to new recipes fun. Visit fancy recipes by clicking [here](http://fancy-recipes.netlify.app/).
+
 ![](https://i.imgur.com/PZgwTtB.gif)
 
 </div>
