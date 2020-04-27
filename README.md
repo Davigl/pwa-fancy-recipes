@@ -28,7 +28,7 @@
 
 ## :thinking: About
 
-<div align="center">
+<div>
 
 Generates recipes in a randomic mode, it turns the discover to new recipes fun. Visit fancy recipes by clicking [here](http://fancy-recipes.netlify.app/).
 
