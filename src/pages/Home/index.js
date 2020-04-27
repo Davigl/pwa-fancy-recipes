@@ -18,9 +18,7 @@ export default function Home() {
   const [titleSize, setTitleSize] = useState(0);
   const [meal, setMeal] = useState({});
   const [loading, setLoading] = useState(false);
-  const [Modal, open] = useModal('root', {
-    preventScroll: true
-  });
+  const [Modal, open] = useModal('root');
 
   async function getRandomMeal() {
     setLoading(true);
