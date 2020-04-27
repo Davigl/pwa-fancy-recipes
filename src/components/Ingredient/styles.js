@@ -7,8 +7,9 @@ export const RecipeIngredient = styled.div`
   width: 130px;
   padding: 15px;
   border-radius: 3px;
-  background-color: rgba(169, 127, 212, 0.6);
-  margin: 3px;
+  background-color: rgba(255, 255, 255, .3);
+  box-shadow: 2px 6px 5px 0px rgba(204,204,204, .6);
+  margin: 5px;
 `;
 
 export const IngredientTitle = styled.span`

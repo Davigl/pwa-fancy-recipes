@@ -140,13 +140,13 @@ export const InstructionsButton = styled.button`
   font-family: 'Quicksand', sans-serif;
   font-weight: bold;
   margin: 20px;
-  border: 6px solid rgba(255,255,255,0.45);
+  border: 7px solid rgba(255,255,255,0.6);
   border-radius: 50px;
   padding: 1em 4em;
   background-repeat: no-repeat;
   background-size: 100%;
   background-clip: padding-box;
-  background-image: linear-gradient(90deg, #a97fd4, ${(props) => props.hex});
+  background-color: ${(props) => props.hex};
   position: relative;
   color: #FFF;
   outline: none;
