@@ -28,9 +28,9 @@
 
 ## :thinking: About
 
-<div align="center">
+<div>
 
-This project generates recipes in a randomic mode, it turns the discover to new recipes fun. Visit fancy recipes by clicking [here](http://fancy-recipes.netlify.app/).
+Generates recipes in a randomic mode, it turns the discover to new recipes fun. Visit fancy recipes by clicking [here](http://fancy-recipes.netlify.app/).
 
 ![](https://i.imgur.com/PZgwTtB.gif)
 
@@ -38,7 +38,7 @@ This project generates recipes in a randomic mode, it turns the discover to new 
 
 ## :rocket: Technologies
 
-This project was developed with the following technologies:
+Developed with the following technologies:
 
 - [React.js](https://github.com/axios/axios)
 - [Eslint](https://github.com/eslint/eslint)
