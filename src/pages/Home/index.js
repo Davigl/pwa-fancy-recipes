@@ -55,9 +55,7 @@ export default function Home() {
             <>
               <RecipeWrapper>
                 <RecipeTitle titleSize={titleSize}> { meal.title } </RecipeTitle>
-                <RecipeDescription> {meal.country} Food </RecipeDescription>
-                <TypeFood> {meal.category} </TypeFood>
-
+                <RecipeDescription> {meal.country} Food { ' ' } <TypeFood> {meal.category} </TypeFood> </RecipeDescription>
                 <ButtonsWrapper>
                   <InstructionsButton type="button" onClick={open} hex={hexColor}> Instructions </InstructionsButton>
                   <InstructionsButton type="button" onClick={getRandomMeal} hex={hexColor}> <FontAwesomeIcon icon={faRedoAlt} /> </InstructionsButton>

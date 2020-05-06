@@ -51,13 +51,12 @@ export const RecipeInstructions = styled.p`
 export const RecipeDescription = styled.p`
   color: #fff;
   animation: ${focusIn} 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-  margin-left: 5px;
   line-height: 3rem;
   font-family: 'Nunito';
   font-size: 20px;
 `;
 
-export const TypeFood = styled.p`
+export const TypeFood = styled.span`
   animation: ${focusIn} 4s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
   margin-left: 5px;
   font-family: 'Quicksand';

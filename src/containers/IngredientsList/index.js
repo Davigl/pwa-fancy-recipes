@@ -2,7 +2,7 @@ import React from 'react';
 
 import Ingredient from '~/components/Ingredient';
 
-import { Wrapper } from './styles';
+import { Wrapper, Title } from './styles';
 
 export default function IngredientsList({ ingredients }) {
   const List = () => ingredients.map((ingredient, index) => (
@@ -15,8 +15,11 @@ export default function IngredientsList({ ingredients }) {
   ));
 
   return (
-    <Wrapper>
-      {ingredients && <List />}
-    </Wrapper>
+    <>
+      <Title> Ingredients </Title>
+      <Wrapper>
+        {ingredients && <List />}
+      </Wrapper>
+    </>
   );
 }
